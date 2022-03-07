@@ -1,0 +1,359 @@
+
+
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 800px;
+    height: 800px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 7px;
+  }
+
+.center {
+ margin: auto;
+}
+
+
+
+.corpo {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left:148px;
+    background-color: rgb(196, 75, 19);
+    border-radius: 46%;
+}
+
+.sup {
+    position: absolute;
+    width: 25px;
+    height: 90px;
+    left:148px;
+    top:110px;
+    background-color: rgb(117, 43, 9);
+}
+
+.corpo2{
+    position: absolute;
+    top:14px;
+    width: 290px;
+    height: 270px;
+    background-color: rgb(196, 75, 19);
+    border-radius: 46%;
+}
+.hole {
+    z-index: 1;
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    background-color: rgb(73, 27, 6);
+    border-radius: 50%;
+    left:138px;
+    top:85px;
+   
+}
+
+.braço {
+    position: absolute;
+    left: -310px;
+    bottom:610px;
+    width: 510px;
+    height: 75px;
+    background-color:rgb(148, 59, 17);
+    border-radius:10px;
+    
+}
+
+.line1 {
+    position: absolute;
+    z-index:7;
+    background-color: rgb(255, 243, 228);
+    width:614px;
+    height: 1px;
+    top: 7px;
+    
+    
+}
+.line2 {
+    position: absolute;
+    z-index:7;
+    background-color: rgb(255, 243, 228);
+    width:614px;
+    height: 1px;
+    top: 25px;
+
+    
+}
+.line3 {
+    position: absolute;
+    z-index:7;
+    background-color: rgb(255, 243, 228);
+    width:614px;
+    height: 1px;
+    top: 45px;
+
+    
+}
+.line4 {
+    position: absolute;
+    z-index:7;
+    background-color: rgb(255, 243, 228);
+    width:614px;
+    height: 1px;
+    top:63px;
+    
+
+    
+}
+
+.mao {
+    position: absolute;
+    left: -360px;
+    bottom:600px;
+    width: 150px;
+    height: 100px;
+    background-color:#943b11;
+    border-radius: 40px;
+
+}
+
+/*paletas*/
+
+
+.w1 {
+    position: absolute;
+    left: -329px;
+    top:77px;
+    width:20px;
+    height:20px;
+    background-color:#5d1e00; 
+    border-radius:35%;
+}
+
+.w2 {
+    position: absolute;
+    left: -276px;
+    top:77px;
+    width:20px;
+    height:20px;
+    background-color:#5d1e00;
+    border-radius:35%;
+}
+
+.w3 {
+    position: absolute;
+    left: -329px;
+    top:205px;
+    width:20px;
+    height:20px;
+    background-color:#5d1e00; 
+    border-radius:35%;
+}
+
+.w4 {
+    position: absolute;
+    left: -276px;
+    top:205px;
+    width:20px;
+    height:20px;
+    background-color:#5d1e00;
+    border-radius:35%;
+}
+
+.p1 {
+    position: absolute;
+    left: -321px;
+    top:95px;
+    width:6px;
+    height:7px;
+    background-color:#5d1e00;
+}
+
+.p2 {
+    position: absolute;
+    left: -271px;
+    top:95px;
+    width:6px;
+    height:7px;
+    background-color:#5d1e00;
+}
+
+.p3 {
+    position: absolute;
+    left: -321px;
+    top: 200px;
+    width:6px;
+    height:7px;
+    background-color:#5d1e00;
+}
+
+.p4 {
+    position: absolute;
+    left: -271px;
+    top:200px;
+    width:6px;
+    height:7px;
+    background-color:#5d1e00;
+}
+
+.buraco1 {
+    position: absolute;
+    background-color: white;
+    border-radius: 10%;
+    width: 110px;
+    height: 20px;
+    top:22px;
+    left:15px;
+    justify-content: space-around;
+    
+    
+    
+}
+
+.buraco2{
+    position: absolute;
+    background-color: white;
+    border-radius: 10%;
+    width: 110px;
+    height: 20px;
+    top:61px;
+    left:15px;
+}
+
+.t1 {
+    position: absolute;
+    height:100%;
+    width:15px;
+    background-color:#3f1807 ;
+    margin-left:20px;
+}
+
+.t2 {
+    z-index: 200;
+    position: absolute;
+    height:100%;
+    width:15px;
+    background-color:#3f1807 ;
+    margin-left:70px;
+    
+}
+
+.t3 {
+    position: absolute;
+    height:100%;
+    width:15px;
+    background-color:#3f1807 ;
+    margin-left:20px;
+}
+
+.t4 {
+    z-index: 200;
+    position: absolute;
+    height:100%;
+    width:15px;
+    background-color:#3f1807 ;
+    margin-left:70px;
+    
+}
+
+/*cordas enroladas*/
+
+.a1 {
+    position: absolute;
+    width:100%;
+    height:1px;
+    background-color:white;
+    margin-top: 4px;
+    
+}
+
+.a2 {
+    position: absolute;
+    width:100%;
+    height:1px;
+    background-color:white;
+    margin-top: 8px;
+    
+}
+.a3 {
+    position: absolute;
+    width:100%;
+    height:1px;
+    background-color:white;
+    margin-top: 12px;
+    
+}
+.b1 {
+    position: absolute;
+    width:100%;
+    height:1px;
+    background-color:white;
+    margin-top: 4px;
+    
+}
+.b2 {
+    position: absolute;
+    width:100%;
+    height:1px;
+    background-color:white;
+    margin-top: 8px;
+    
+}
+.b3 {
+    position: absolute;
+    width:100%;
+    height:1px;
+    background-color:white;
+    margin-top: 12px;
+    
+}
+.c1 {
+    position: absolute;
+    width:100%;
+    height:1px;
+    background-color:white;
+    margin-top: 4px;
+    
+}
+.c2 {
+    position: absolute;
+    width:100%;
+    height:1px;
+    background-color:white;
+    margin-top: 8px;
+    
+}
+.c3 {
+    position: absolute;
+    width:100%;
+    height:1px;
+    background-color:white;
+    margin-top: 12px;
+    
+}
+.d1 {
+    position: absolute;
+    width:100%;
+    height:1px;
+    background-color:white;
+    margin-top: 4px;
+    
+}
+.d2 {
+    position: absolute;
+    width:100%;
+    height:1px;
+    background-color:white;
+    margin-top: 8px;
+    
+}
+.d3 {
+    position: absolute;
+    width:100%;
+    height:1px;
+    background-color:white;
+    margin-top: 12px;
+    
+}
